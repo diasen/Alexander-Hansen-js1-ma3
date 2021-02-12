@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.loading {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	height: 900px;
+}
+
+img {
+	width: 300px;
+}
+
+.hide {
+	display: none;
+}
+
+.card {
+	width: 20%;
+	padding: 20px;
+	margin: 10px;
+	background-color: #122640;
+	color: white;
+	box-shadow: 4px 4px 6px #53823b;
+}
+
+.redBorder {
+	width: 20%;
+	padding: 20px;
+	margin: 10px;
+	background-color: #122640;
+	border: red 3px solid;
+	color: white;
+	box-shadow: 4px 4px 6px #53823b;
+}
+
+.card img {
+	width: 100%;
+}
+
+.alert {
+	width: 100%;
+}
+
+.danger {
+	background-color: rgb(255 124 124);
+	color: red;
+	border: solid 1px red;
+	padding: 20px;
+	transition: 2s;
+}
+
+.success {
+	background-color: rgb(148, 247, 139);
+	color: darkgreen;
+	border: solid 1px darkgreen;
+	padding: 20px;
+	transition: 2s;
+}
+
+.warning {
+	background-color: rgb(255, 200, 80);
+	color: orange;
+	border: solid 1px orange;
+	padding: 20px;
+	transition: 2s;
+}
+
+.information {
+	background-color: rgb(108, 238, 255);
+	color: blue;
+	border: solid 1px blue;
+	padding: 20px;
+	transition: 2s;
+}
